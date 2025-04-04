@@ -5,13 +5,12 @@ import os
 from model import MLP
 from loss import SoftmaxCrossEntropyLoss
 from optimizer import SGD
-from preprocess import normalize, one_hot_encode, standardize
+from preprocess import one_hot_encode, standardize
 from utils import shuffle_data, accuracy, confusion_matrix, precision_recall_f1
 from config import (
     learning_rate, momentum, weight_decay, batch_size, num_epochs,
     dropout_prob, hidden_dims, input_dim, output_dim
 )
-from activations import softmax
 from visualizer import plot_metrics
 
 # --------------------- Load dataset ---------------------
