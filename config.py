@@ -5,19 +5,19 @@ Used for training the MLP network.
 """
 
 # Optimization hyperparameters
-learning_rate = 1e-3       # Learning rate for optimizer
-momentum = 1e-4               # Momentum factor for SGD
+learning_rate = 1e-3           # Learning rate for optimizer
+momentum = 1e-4                # Momentum factor for SGD
 weight_decay = 0.0005          # L2 regularization (weight decay)
 
 # Training loop settings
-batch_size = 100             # Mini-batch size
-num_epochs = 100              # Total training epochs
+batch_size = 100               # Mini-batch size
+num_epochs = 100               # Total training epochs
 
 # Model architecture
-input_dim = 128              # Input dimension (e.g., feature size)
-hidden_dims = [256, 128]          # Hidden layer sizes including output layer
-dropout_prob = 0             # Dropout probability for regularization
+input_dim = 128                # Input dimension (e.g., feature size)
+hidden_dims = [256, 128]       # Hidden layer sizes including output layer
+dropout_prob = 0               # Dropout probability for regularization
 
 # Output
-output_dim = 10              # Number of output classes
+output_dim = 10                # Number of output classes
 
