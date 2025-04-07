@@ -1,0 +1,27 @@
+# data
+*.npy
+*.npz
+*.pkl
+*.pt
+*.h5
+*.ckpt
+
+# # images
+# *.png
+# *.jpg
+# *.jpeg
+
+# plots
+*.pdf
+*.svg
+
+# checkpoints
+*.pth
+*.onnx
+
+# others
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+saved_models/*.pkl
