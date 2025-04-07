@@ -1,27 +1,22 @@
-# data
-*.npy
-*.npz
+# 模型文件
 *.pkl
 *.pt
-*.h5
 *.ckpt
-
-# # images
-# *.png
-# *.jpg
-# *.jpeg
-
-# plots
-*.pdf
-*.svg
-
-# checkpoints
-*.pth
+*.h5
 *.onnx
 
-# others
+# 输出目录
+saved_models/
+checkpoints/
+
+# 缓存和日志
 __pycache__/
+*.log
+*.out
+*.tmp
+*.json
 .ipynb_checkpoints/
 .DS_Store
-*.log
-saved_models/*.pkl
+
+# IDE 设置
+.vscode/
